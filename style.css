@@ -1,3 +1,92 @@
 body{
-    margin: 0%;
+    font-family: 'Poppins', sans-serif;;
+    margin: 0;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 50px;
+    color: deeppink;
+}
+p{
+    color: dimgray;
+}
+section{
+    height: 600px;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.text-part{
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.half-width img{
+    width: 400px;
+    height: 500px
+}
+.link-button{
+    background-image: linear-gradient(45deg, rgb(237, 125, 144),deeppink);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+.image{
+    margin-left: 200px;
+}
+.latest-work{
+    height: 500px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    margin-left: 5%;
+}
+.center-heading{
+    text-align: center;
+}
+.work{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+.latest-work img{
+    width: 100%;
+}
+.title{
+    margin-top: 100px;
+}
+.bottom-p{
+    color: black;
+}
+.submit{
+    margin-top: 100px;
+}
+.submit-button{
+    padding: 40px 60px;
+}
+.work-station{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
 }
